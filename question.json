@@ -1,20 +1,20 @@
 {
-   "question" : "Libelle de la question",
+   "question" : "Je peux depasser le camion ?",
    "reponses" : [
       {
-         "libelle" : "Texte de la response",
+         "libelle" : "oui",
          "isTrue" : true
       },
       {
-         "libelle" : "Texte de la response",
+         "libelle" : "non",
          "isTrue" : true
       },
       {
-         "libelle" : "Texte de la response",
+         "libelle" : "peut etre",
          "isTrue" : true
       },
       {
-         "libelle" : "Texte de la response",
+         "libelle" : "je sais pas",
          "isTrue" : true
       }
    ]

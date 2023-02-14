@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
    <meta charset="UTF-8">
@@ -10,8 +10,56 @@
 </head>
 
 <body>
+   <div class="container">
+      <h2>liste des questions</h2>
+      <div class="section">
+         <h3>Question</h3>
 
+         <table id="tableau">
+            <thead>
+               <tr>
+                  <th colspan="2" id="question">Je peux depasser le camion ?</th>
+               </tr>
+            </thead>
+            <tbody>
+
+
+               <tr>
+                  <td>
+                     <input type="radio" id="choix1" name="reponse1" value="oui">
+                     <label for="choix1" id="rep1">Oui</label>
+                  </td>
+                  <td><input type="radio" id="choix2" name="reponse1" value="non">
+                     <label for="contactChoice2" id="rep2">Non</label>
+                  </td>
+               </tr>
+               <tr style="border: 0px 4px;">
+                  <td>
+                     <input type="radio" id="choix3" name="reponse2" value="oui">
+                     <label for="choix3" id="rep3">Oui</label>
+                  </td>
+                  <td>
+                     <input type="radio" id="choix4" name="reponse2" value="non">
+                     <label for="choix4" id="rep4">Non</label>
+                  </td>
+                  <!-- <tr>
+                     <td></td>
+                     <td></td>
+                  </tr> -->
+               </tr>
+            </tbody>
+         </table>
+
+
+      </div>
+      <div class="section">
+         <h3>infos diverses...</h3>
+      </div>
+      <div class="section">
+         <h3>Footer</h3>
+      </div>
+   </div>
 </body>
-<script src="../src/index.js"></script>
+<script src="../src/app.js"></script>
 
 </html>
