@@ -1,0 +1,69 @@
+{
+   "title" : "Titre du quizz",
+   "questions" : 
+   [
+      {
+         "question" : "Libelle de la question",
+         "reponses" : [
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            }
+         ]
+      },
+      {
+         "question" : "Libelle de la question",
+         "reponses" : [
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            }
+         ]
+      },
+      {
+         "question" : "Libelle de la question",
+         "reponses" : [
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            },
+            {
+               "libelle" : "Texte de la response",
+               "isTrue" : true
+            }
+         ]
+      }
+   ]
+}
