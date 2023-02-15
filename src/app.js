@@ -28,21 +28,39 @@ fetch("/quizz2.json")
     return response.json();
   })
   .then((json) => {
-    console.log(json);
+    // console.log(json);
   });
 
 // jaffiche les quizzs
-(async () => {
+app();
+
+async function app() {
   const response = await fetch("/quizz2.json");
   const json = await response.json();
   console.log(json);
 
-  console.log(json.name[0]);
-  console.log(json.name[1]);
+  var longeurTableau = json.length;
 
-  let nodeList = document.querySelectorAll("li");
-  nodeList[0].innerHTML = json.name[0];
-  // let nodeList = document.querySelectorAll("li");
-  // nodeList[0].innerHTML = json.name[0];
-  // document.querySelectorAll()
-})();
+  document.getElementById("nbQuizz").innerHTML =
+    longeurTableau + " Quizzs disponibles";
+
+  var myList = document.getElementById("myList");
+
+  // creation de ul element.
+  var ul = document.createElement("ul");
+
+  for (i = 0; i <= json.length - 1; i++) {
+    // creation li element.
+    var li = document.createElement("li");
+
+    // sur chaque <li> je mets les "data"
+    var data = i + 1 + " - " + json[i].titre;
+    li.innerHTML = "<a href=''>" + data + "</a>";
+
+    // ajoute un li a ul.
+    ul.appendChild(li);
+  }
+
+  // ajoute ul de fin list a "myList".
+  myList.appendChild(ul);
+}
