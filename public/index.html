@@ -11,53 +11,81 @@
 
 <body>
    <div class="container">
-      <h2>liste des questions</h2>
-      <div class="section">
-         <h3>Question</h3>
 
-         <table id="tableau">
-            <thead>
-               <tr>
-                  <th colspan="2" id="question">Je peux depasser le camion ?</th>
-               </tr>
-            </thead>
-            <tbody>
-
-
-               <tr>
-                  <td>
-                     <input type="radio" id="choix1" name="reponse1" value="oui">
-                     <label for="choix1" id="rep1">Oui</label>
-                  </td>
-                  <td><input type="radio" id="choix2" name="reponse1" value="non">
-                     <label for="contactChoice2" id="rep2">Non</label>
-                  </td>
-               </tr>
-               <tr style="border: 0px 4px;">
-                  <td>
-                     <input type="radio" id="choix3" name="reponse2" value="oui">
-                     <label for="choix3" id="rep3">Oui</label>
-                  </td>
-                  <td>
-                     <input type="radio" id="choix4" name="reponse2" value="non">
-                     <label for="choix4" id="rep4">Non</label>
-                  </td>
-                  <!-- <tr>
+      <div class="container_question">
+         <!-- titre -->
+         <div class="section">
+            <h2>Question</h2>
+         </div>
+         <!-- photo -->
+         <div class="section">
+            <h2>Photo ?</h2>
+         </div>
+         <!-- tableau data -->
+         <div class="section">
+            <h3></h3>
+            <table id="tableau">
+               <thead>
+                  <tr>
+                     <th colspan="2" id="question"></th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>
+                        <input type="radio" id="choix1" name="reponse1" value="oui">
+                        <label for="choix1" id="rep1"></label>
+                     </td>
+                     <td><input type="radio" id="choix2" name="reponse1" value="non">
+                        <label for="contactChoice2" id="rep2"></label>
+                     </td>
+                  </tr>
+                  <tr style="border: 0px 4px;">
+                     <td>
+                        <input type="radio" id="choix3" name="reponse2" value="oui">
+                        <label for="choix3" id="rep3"></label>
+                     </td>
+                     <td>
+                        <input type="radio" id="choix4" name="reponse2" value="non">
+                        <label for="choix4" id="rep4"></label>
+                     </td>
+                     <!-- <tr>
                      <td></td>
                      <td></td>
                   </tr> -->
-               </tr>
-            </tbody>
-         </table>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <!-- bouton de validation -->
+         <div class="section">
+            <!-- <h3>validation</h3> -->
+            <button class="button" type="button">
+               validation
+            </button>
+         </div>
+         <!-- footer -->
+         <div class="section">
+            <p id="copy"></p>
+         </div>
+      </div>
+      <div class="container_quizz">
+         <!-- titre -->
+         <div class="section">
+            <h2>Quizzs</h2>
+         </div>
 
-
+         <div class="section">
+            <h3>Liste des quizzs</h3>
+            <ul>
+               <li>1</li>
+               <li>1</li>
+               <li>1</li>
+               <li>1</li>
+            </ul>
+         </div>
       </div>
-      <div class="section">
-         <h3>infos diverses...</h3>
-      </div>
-      <div class="section">
-         <h3>Footer</h3>
-      </div>
+   </div>
    </div>
 </body>
 <script src="../src/app.js"></script>
