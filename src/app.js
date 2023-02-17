@@ -17,8 +17,11 @@ fetch("/question.json")
   document.getElementById("rep3").innerHTML = json.reponses[2].libelle;
   document.getElementById("rep4").innerHTML = json.reponses[3].libelle;
 })();
+
 // copyright
-document.getElementById("copy").innerHTML =
+document.getElementsByClassName("copy")[1].innerHTML =
+  "© QuizzMe - 2020 -" + new Date().getFullYear();
+document.getElementsByClassName("copy")[0].innerHTML =
   "© QuizzMe - 2020 -" + new Date().getFullYear();
 
 // *************************************************
